@@ -1,0 +1,369 @@
+body {
+    margin: 0;
+}
+.upper-image {
+    background: url(images/upper-image.png);
+    background-repeat: no-repeat;
+    height: 1234px;
+    width: 100%;
+}
+.upper-search {
+    float: right;
+    margin-right: 3%;
+    margin-top: 300px;
+}
+.upper-search input {
+    width: 350px;
+    height: 35px;
+    background: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+}
+.upper-search button {
+    width: 100px;
+    height: 35px;
+    background: #B40500;
+    border: none;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    display:inline-block;
+    vertical-align: middle;
+}
+.upper-links a{
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: 4px solid transparent;
+}
+a:hover {
+    border: 4px solid #D50107;
+    box-sizing: border-box;
+}
+.image-links {
+    padding-top: 350px;
+}
+.image-links img {
+    margin-left: 50px;
+}
+.upper-links {
+    margin-left: 55%;
+    margin-top: -70px;
+}
+.company-name {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 150px;
+}
+.display-image {
+    width: 100%;
+    margin-top: -250px;
+}
+.display-image img {
+    width: 100%;
+}
+.display-image p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-top: -150px;;
+}
+.mid-level {
+    width: 100%;
+    height: 675px;
+    margin-top: 59px;
+    display: flex;
+}
+.mid-level-left {
+    width: 50%;
+}
+.mid-level-left img{
+    width: 100%;
+    height: 675px;
+    width: 100%;
+}
+.mid-level-right {
+    width: 50%;
+    text-align: center;
+    background: #000000;
+}
+.mid-level-right h3 {
+    font-family: 'Aguafina Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    color: #A20001;
+    margin-top: 100px;
+}
+.mid-level-right p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-top: -55px;
+}
+.mid-level-right span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mid-level-level {
+    width: 95%;
+    height: 375px;
+    display: flex;
+    margin-top : 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid-level-level-left {
+    width: 40%;
+    height: 375px;
+    text-align: center;
+}
+.mid-level-level-left h3 {
+    font-family: 'Aguafina Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    color: #A20001;
+}
+.mid-level-level-left p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: -0.05em;
+    color: #000000;
+    margin-top: -55px;
+}
+.mid-level-level-left span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid-level-level-right {
+    width: 60%;
+}
+.mid-level-level-right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chef-portion{
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.chef-portion img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chef-portion span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+    margin-left: 30px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.burger-section {
+    width: 95%;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+}
+.burger-section-left {
+    background: url(images/bufallo-burger.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 270px;
+}
+.burger-section-left p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #CA0107;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.burger-section-left span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.burger-section-right {
+    background: url(images/burger_0.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 270px;
+}
+.burger-section-right p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    color: #CA0107;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.burger-section-right span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.footer {
+    background:url(images/chef.png);
+    background-repeat: no-repeat;
+    border: 2px solid #B81510;
+    box-sizing: border-box;
+    width: 95%;
+    height: 473px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 92px;
+}
+.footer-content {
+    align-content: center;
+    float: right;
+    margin-right: 59px;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+}
+.footer-subscribe {
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.small-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+.footer input {
+    width: 70%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 16px;
+}
+.footer button {
+    width: 30%;
+    height: 38px;
+    background: #B81510;
+    color:  #FFFFFF;
+    font-family: 'Righteous', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    display:inline-block;
+    vertical-align: middle;
+    border: none;
+    margin-top: 16px;
+}
+.social-media {
+    display: flex;
+    margin-top:  106px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:  65px;
+    width: 30%;
+}
+.social-list {
+    display: inline-block
+}
+.social-media ul {
+    list-style: none;
+    display: flex;
+    vertical-align: middle;
+}
+.social-media span {
+    display:inline-block;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-left:  7px;
+    margin-top: 20px;
+}
